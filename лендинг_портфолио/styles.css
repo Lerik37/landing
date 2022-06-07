@@ -1,0 +1,121 @@
+body {
+  /* overflow-x: hidden; */
+  font-family: 'Lato';
+  height:100%;
+}
+.header {
+  width: 1920px;
+  height: 780px;
+}
+.nav {
+  width: 1920px;
+  height: 110px;
+  padding: 22px 0 31px 0;
+}
+.logo {
+  position:absolute;
+  padding: 11px 30px 11px 0;
+}
+.title {
+  font-family: 'Merriweather';
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #005fa3;
+  position: absolute;
+  padding: 11px 0 3px 0;
+}
+.header__info{
+font-family: 'Lato';
+}
+.header__contacts{
+display: flex;
+justify-content: space-between;
+padding-top: 0;
+font-size: 13px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+}
+.header__contacts-phone{
+background: url(images/phone.png) no-repeat left center;
+Width:10px;
+Height:17px;
+display:inline-block;
+vertical-align:bottom;
+padding-left: 25px;
+}
+.header__contacts-timetable{
+  background: url(images/time.png) no-repeat left center;
+  Width:17px;
+  Height:17px;
+  display:inline-block;
+  vertical-align:bottom;
+  padding-left: 32px;
+}
+.header__contacts-email{
+  background: url(images/email.png) no-repeat left center;
+  Width:22px;
+  Height:17px;
+  display:inline-block;
+  vertical-align:bottom;
+  padding-left: 36px;
+}
+.header__contacts-address{
+  background: url(images/map.png) no-repeat left center;
+  Width:17px;
+  Height:17px;
+  display:inline-block;
+  vertical-align:bottom;
+  padding-left: 32px;  
+}
+.header__menu{
+display: flex;
+justify-content: space-between;
+padding-top: 22px;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0.1em;
+text-align: left;
+}
+
+ul{
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  color: #222222;
+}
+.slider {
+background: url(images/saint_petersburg.jpeg) no-repeat center;
+background-size: 100%;
+width: 1920px;
+height: 670px;
+position: absolute;
+left: 0px;
+top: 110px;
+border-radius: 0px;
+}
+
+.slider__title{
+font-family: 'Merriweather';
+font-size: 48px;
+color: #FFFFFF;
+font-weight: 700;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+top:170px;
+left: 405px;
+}
+.btn {
+  width: 270px;
+  height: 60px;
+  background: #005fa3;
+}
